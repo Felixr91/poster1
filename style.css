@@ -1,7 +1,6 @@
 body {
   font-size: 100%; 
-  color: white;
-  background-color: #ffa60085;
+  color: black;
 } 
 p {
   font-family: 'Roboto', sans-serif;
@@ -9,6 +8,10 @@ p {
   line-height: 1.333;
   margin: 0 auto 1rem auto;
   max-width: 90vw; 
+}
+
+h1{
+  font-size: 4rem;
 }
 
 @media screen and (min-width: 35em) {
@@ -22,6 +25,10 @@ p {
     line-height: 1.5;
     max-width: 40em;
   } 
+}
+
+.orange-bg{
+    background-color: #ffa60085;
 }
 
 .db-bg{
@@ -42,15 +49,17 @@ p {
 }
 
 .side-header{
-font-family: 'Staatliches', cursive;
-font-size: 200px;
-  color: rgba(0, 204, 255, 0.835);
+  font-family: 'Staatliches', cursive;
+  font-size: 175px;
+  /* color: rgba(0, 204, 255, 0.835); */
+  color: black;
 }
 
 .para-text{
-  font-family: 'Staatliches', cursive; 
+  font-family: 'Roboto', sans-serif;
   color: dimgrey;
-  font-size: 3rem;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 
